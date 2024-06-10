@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color:#182747;
+    float:left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#729cf0;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #729cf0;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#729cf0;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#mainpage{
+    padding: 50px;
+    text-align: center;
+    height: auto;
+    color: #012bd1;
+    background-color: aliceblue;
+    
+}
+
+#contact{
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    color:#D8D8D8;
+    background-color: #182747;
+    background-size: cover;
+    
+}
+
+textarea{
+    font-family: Arial;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 100px 50px;
+    display: inline-block;
+    padding: 15px 30px;
+    
+}
+
+.btn1{
+    background-color: #182747;
+    color: #D8D8D8;
+}
+.btn1:hover{
+    opacity: .5;
+}
+.btn2{
+    background-color: #182747;
+    color: #D8D8D8;
+}
+.btn2:hover{
+    opacity: .5;
+}
+
+#logo2{
+    font-size: 60px;
+    line-height: 80px;
+    color:#012bd1;
+}
+
+#h3contact{
+    font-size: 60px;
+}
+
+.social{
+    color:white;
+    border:1px solid white;
+    padding: 10px;
+    width:50px;
+    border-radius: 5px;
+    margin:5px 10px;
+}
+
+.social:hover{
+    background-color: #888;
+}
+
+#contactopak{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color:#495057;
+    background-color: #D8D8D8;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #D8D8D8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px 30px;
+    color: #182747;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#up{
+    color:white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px 12px;
+    margin-top: 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul#main{
+    float: left;
+    position: relative;
+    width: 150px;
+}
+
+ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+ul li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #012bd1;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #012bd1;
+}
+
+ul#main li:hover ul{
+    display: block;
+}
